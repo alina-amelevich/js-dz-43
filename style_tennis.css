@@ -1,0 +1,50 @@
+#field {
+    position: relative;
+    border: solid rgb(29, 29, 29) 2px;
+    background-color: yellow;
+    margin: 20px;
+}
+#ball {
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+#paddle-left {
+    position: absolute;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+#paddle-right {
+    position: absolute;
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+}
+#button1 {
+    background-color: lightskyblue;
+    border-color:  rgb(121, 184, 223);
+    border-radius: 0%;
+    width: 100px;
+    height: 30px;
+    margin: 20px 0px 0px 20px;
+    font-size: 20px;
+}
+#results-table {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    margin-left: -49px;
+    top: -61px;
+    font-size: 40px;
+    padding: 0;
+    text-align: center;
+}
+#results-table td {
+    width: 30px;
+    padding: 0;
+    border-spacing: 2px;
+}

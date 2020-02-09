@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style_tennis.css">
+    <title>N.43 Tennis DOM</title>
+</head>
+<body>
+    <div id="container">
+        <button type="button" id="button1" onclick="start()">Start!</button>
+        <div id="field">
+            <div id="ball"></div>
+            <div id="paddle-left"></div>
+            <div id="paddle-right"></div>
+            
+            <table id="results-table">
+                <tr>
+                    <td><span id="left-wins">0</span></td>
+                    <td><span>:</span></td>
+                    <td><span id="right-wins">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="tennis_dom.js"></script>
+</body>
+</html>
